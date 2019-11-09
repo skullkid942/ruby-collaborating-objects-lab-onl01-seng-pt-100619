@@ -19,10 +19,6 @@ class Artist
     @songs
   end
 
-  def save
-    @@all << self
-    self
-  end
 
   def self.all
     @@all
